@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/T.svg" />
+    <title>Tip calculator app</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="" />
+    </header>
+
+    <main>
+      <section class="inputSection">
+        <div class="bill">
+          <div class="inputField">
+            <p>Bill</p>
+            <p class="errorMessage">Can't be Zero</p>
+          </div>
+          <input type="number" id="bill" class="longField" />
+        </div>
+
+        <div class="tipSelection">
+          <p>Select Tip %</p>
+
+          <div class="wrapper">
+            <button class="tipPercent"><span class="percent">5</span>%</button>
+            <button class="tipPercent"><span class="percent">10</span>%</button>
+            <button class="tipPercent"><span class="percent">15</span>%</button>
+            <button class="tipPercent"><span class="percent">25</span>%</button>
+            <button class="tipPercent"><span class="percent">50</span>%</button>
+            <input type="number" id="custom" placeholder="Custom" />
+          </div>
+        </div>
+
+        <div class="people">
+          <div class="inputField">
+            <p>Number of People</p>
+            <p class="errorMessage">Can't be Zero</p>
+          </div>
+          <input type="number" id="people" class="longField" />
+        </div>
+      </section>
+
+      <section class="outputSection">
+        <div class="container">
+          <div class="tip">
+            <div class="text">
+              <p class="title">Tip Amount</p>
+              <p>/ person</p>
+            </div>
+
+            <div class="result">
+              <h1 id="tipAmount">$0.00</h1>
+            </div>
+          </div>
+
+          <div class="tip">
+            <div class="text">
+              <p class="title">Total</p>
+              <p>/ person</p>
+            </div>
+
+            <div class="result">
+              <h1 id="totalAmount">$0.00</h1>
+            </div>
+          </div>
+          <input type="submit" value="RESET" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Tasnim005">Tasnim Alam</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
