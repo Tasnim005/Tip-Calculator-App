@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repository]()
-- Live Site URL: [Live Preview]()
+- Solution URL: [Repository](https://github.com/Tasnim005/Tip-Calculator-App)
+- Live Site URL: [Live Preview](https://tasnim005.github.io/Tip-Calculator-App/)
 
 ## My process
 
